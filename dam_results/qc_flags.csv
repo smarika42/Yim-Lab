@@ -1,0 +1,11 @@
+fid,window,tube,label,valid_frac,total_act,hours_since_last_move,flags
+W1-T16,W1,16,TGLoYWM,0.9986111111111111,4487.0,0.43333333333333335,duplicate label (identity ambiguous)
+W1-T23,W1,23,TGLoYWM,0.9986111111111111,14045.0,0.03333333333333333,duplicate label (identity ambiguous)
+W1-T30,W1,30,TGLoYWF,0.9986111111111111,11055.0,0.05,duplicate label (identity ambiguous)
+W1-T32,W1,32,TGLoYWF,0.9986111111111111,8792.0,0.0,duplicate label (identity ambiguous)
+W2-T04,W2,4,IGLoYWF,0.9986111111111111,0.0,inf,no movement for last 24 h (dead?)
+W2-T06,W2,6,IGHiYWM,0.9986111111111111,6076.0,1.9333333333333333,duplicate label (identity ambiguous)
+W2-T13,W2,13,IGHiYWM,0.9986111111111111,8512.0,1.0666666666666667,duplicate label (identity ambiguous)
+W3-T14,W3,14,TGLoYWM,0.9944444444444445,17403.0,8.083333333333334,no movement for last 8 h (dead?)
+W3-T17,W3,17,Control1YWM,0.9944444444444445,21766.0,7.85,no movement for last 8 h (dead?)
+W4-T13,W4,13,Control1OrRM,0.9993055555555556,0.0,inf,no movement for last 24 h (dead?)
