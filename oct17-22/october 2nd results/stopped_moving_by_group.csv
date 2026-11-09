@@ -1,0 +1,8 @@
+grp,flies,stopped,percent_stopped
+Control,40,12,30.0
+IG-Lo,20,6,30.0
+IG-Med,20,7,35.0
+IG-Hi,20,9,45.0
+TG-Lo,20,7,35.0
+TG-Med,20,4,20.0
+TG-Hi,20,6,30.0

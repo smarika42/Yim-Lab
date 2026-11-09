@@ -1,0 +1,17 @@
+Runs analysed: W1, W2, W3, W4, W5 (Oct 17-22, 2026), 160 fly-runs, 107 kept, 53 excluded.
+  excluded for 'duplicate label': 2
+  excluded for 'dead?': 51
+Usable flies per group: Control 28, IG-Lo 14, IG-Med 13, IG-Hi 11, TG-Lo 13, TG-Med 16, TG-Hi 12
+
+Pooled model, % change versus control (raw p / Holm p):
+  total activity: TG-Lo +19% (p=0.365, Holm 1.00); TG-Med +12% (p=0.535, Holm 1.00); IG-Hi +10% (p=0.629, Holm 1.00); IG-Med +8% (p=0.712, Holm 1.00); IG-Lo -2% (p=0.905, Holm 1.00); TG-Hi -2% (p=0.926, Holm 1.00)
+  waking activity: TG-Lo +12% (p=0.351, Holm 1.00); IG-Lo -8% (p=0.531, Holm 1.00); IG-Hi +5% (p=0.735, Holm 1.00); TG-Med +4% (p=0.760, Holm 1.00); TG-Hi +2% (p=0.877, Holm 1.00); IG-Med +2% (p=0.886, Holm 1.00)
+  total sleep: IG-Med -14% (p=0.324, Holm 1.00); TG-Hi +14% (p=0.349, Holm 1.00); IG-Lo -8% (p=0.551, Holm 1.00); TG-Med -7% (p=0.628, Holm 1.00); IG-Hi -6% (p=0.706, Holm 1.00); TG-Lo +1% (p=0.949, Holm 1.00)
+  night sleep: IG-Med -18% (p=0.184, Holm 1.00); TG-Med -14% (p=0.275, Holm 1.00); IG-Hi -8% (p=0.564, Holm 1.00); TG-Hi +8% (p=0.574, Holm 1.00); TG-Lo -1% (p=0.913, Holm 1.00); IG-Lo +1% (p=0.958, Holm 1.00)
+
+Mann-Whitney tests within strain x sex: 215; raw p<0.05: 14 (about 11 expected by chance); BH q<0.05: 0.
+Power: with about 13 flies per treatment group, only effects of roughly 0.9 standard deviations are reliably detectable.
+Skewness of total activity: +0.87 (right-skewed) -> rank tests used.
+
+Flies that stopped moving mid-run (excluded in the main analysis): 51 of 160. Rate differs by group? chi-square p = 0.78; by run? p = 0.0000.
+Sensitivity analysis keeping those flies is saved in stats_sensitivity_keep_stopped_flies.csv.
